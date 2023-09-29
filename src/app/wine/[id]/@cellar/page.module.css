@@ -1,0 +1,8 @@
+.cellar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-shrink: 0;
+    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  }

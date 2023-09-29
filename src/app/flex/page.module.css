@@ -1,0 +1,18 @@
+.container {
+    display: block;
+
+}
+.flexContainer {
+    display: flex;
+    border: 1px dashed red;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.flexContainer2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 1rem;
+}

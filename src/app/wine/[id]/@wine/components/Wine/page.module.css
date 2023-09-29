@@ -1,0 +1,7 @@
+.wine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  }
