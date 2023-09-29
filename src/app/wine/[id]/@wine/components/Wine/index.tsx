@@ -6,15 +6,11 @@ import { useEffect } from "react";
 
 async function getData() {
   console.log(`calling get data`);
-  const res = await fetch("http://localhost:3000/api/wine");
+  const res = await fetch("/api/wine");
   return res.json();
 }
 
 export default function Wine() {
-  useEffect(() => {
-    const wine = getData();
-  }, [])
-  
   const handleClick = () => getData();
   const params = useParams()
 
