@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Announcement from "./components/Announcement";
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Announcement />
         {children}
+        <Analytics />
       </body>
     </html>
   );
